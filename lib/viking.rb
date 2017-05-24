@@ -35,11 +35,11 @@ class Viking
 
   private
   def damage_dealt
-    if @weapon
-      damage_with_weapon
-    else
-      damage_with_fists
-    end
+     if @weapon
+       damage_with_weapon
+     else
+       damage_with_fists
+     end
   end
 
   def damage_with_weapon
